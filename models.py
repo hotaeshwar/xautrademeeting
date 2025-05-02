@@ -31,3 +31,4 @@ class User(Base):
     password = Column(String)
     country_id = Column(Integer, ForeignKey("countries.id"))
     state_id = Column(Integer, ForeignKey("states.id"))
+    

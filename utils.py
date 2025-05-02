@@ -223,9 +223,9 @@ from datetime import datetime
 from typing import Dict, Any, Tuple, Optional
 
 # Zoom API Credentials
-ZOOM_ACCOUNT_ID = "DN9AAp02SEiZNdAeCSqXDg"
-ZOOM_CLIENT_ID = "JkskHb7HTye7Rv9QX81cZQ"
-ZOOM_CLIENT_SECRET = "StXD1AMndHCr262oNO22AXticdLVGNa5"
+ZOOM_ACCOUNT_ID = "Pa5BJqkrQSGQafka9AXOQg "
+ZOOM_CLIENT_ID = "P7uP5kM3QqCN_Ryn74uUA"
+ZOOM_CLIENT_SECRET = "H1c8h0hFcuEYn6AuSBFyjaz8s458Q29D"
 ZOOM_USER_ID = "me"  # Use "me" for account-level apps
 
 def get_zoom_access_token() -> Optional[str]:
