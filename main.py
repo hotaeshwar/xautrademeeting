@@ -8,12 +8,13 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:5173",
-        "https://xautrademeeting.com"
-    ],  # List of allowed origins
+        "https://xautrademeeting.com",       # Production frontend
+        "https://www.xautrademeeting.com",   # Mobile browsers may use www
+        "http://localhost:5173"              # Optional: local dev
+    ],
     allow_credentials=True,
-    allow_methods=["*"],  # Allow all HTTP methods
-    allow_headers=["*"],  # Allow all headers
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 # Include the auth router
