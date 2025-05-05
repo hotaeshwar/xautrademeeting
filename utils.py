@@ -223,7 +223,7 @@ from datetime import datetime
 from typing import Dict, Any, Tuple, Optional
 
 # Zoom API Credentials
-ZOOM_ACCOUNT_ID = "Pa5BJqkrQSGQafka9AXOQg "
+ZOOM_ACCOUNT_ID = "Pa5BJqkrQSGQafka9AXOQg"
 ZOOM_CLIENT_ID = "omqBxcdnSbWLyAhbsUHZtA"
 ZOOM_CLIENT_SECRET = "9AyafculUnS8UG2MEWbykeDUImlI07iA"
 ZOOM_USER_ID = "me"  # Use "me" for account-level apps
